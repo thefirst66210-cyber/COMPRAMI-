@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>COMPRAMI - Rimborso</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="brand">COMPRAMI</div>
+    <div class="nav"><a href="home.html">Home</a></div>
+  </div>
+  <div class="card">
+    <h2>Richiesta Rimborso</h2>
+    <form action="https://formsubmit.co/FischerStephane1@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Richiesta di Rimborso - COMPRAMI">
+      <label>Importo Pagato</label>
+      <input type="number" name="importo" required>
+      <label>Motivo del Rimborso</label>
+      <textarea name="motivo" required></textarea>
+      <label>Tuo Email</label>
+      <input type="email" name="email_cliente" required>
+      <button type="submit" class="btn">Invia Richiesta</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>
